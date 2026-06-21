@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<title>Hikayeni Paylaş</title>
+
+<style>
+body{
+    font-family:'Segoe UI',sans-serif;
+    padding:40px;
+    text-align:center;
+    background:linear-gradient(135deg,#fff8fc,#f4ecff,#eef5ff);
+}
+
+form{
+    max-width:600px;
+    margin:auto;
+    background:white;
+    padding:30px;
+    border-radius:20px;
+}
+
+input,select,textarea{
+    width:90%;
+    padding:12px;
+    margin:10px;
+    border-radius:10px;
+    border:1px solid #ddd;
+}
+
+button{
+    background:#6d4aff;
+    color:white;
+    border:none;
+    padding:12px 20px;
+    border-radius:12px;
+}
+</style>
+</head>
+
+<body>
+
+<h1>✨ Hikayeni Paylaş ✨</h1>
+
+<form>
+
+<select>
+<option>📸 Anılarım</option>
+<option>📝 Şu Anım</option>
+<option>🚀 Gelecekteki Bana</option>
+</select>
+
+<input type="text" placeholder="Başlık">
+
+<textarea rows="8" placeholder="Hikayeni yaz..."></textarea>
+
+<button type="submit">Gönder</button>
+
+</form>
+
+<br>
+
+<a href="index.html">← Ana Sayfaya Dön</a>
+
+</body>
+</html>
